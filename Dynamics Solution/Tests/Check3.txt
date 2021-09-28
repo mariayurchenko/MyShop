@@ -1,0 +1,20 @@
+﻿{
+    "shop": "Веселка",
+    "client":
+    {
+        "loyaltycard": "",
+        "email": "user1234873@gmail.com"
+    },
+    "products":[
+        {
+            "article": "P-200-12-a-2",
+            "cost": 10.00,
+            "discount": 1 
+        },
+        {
+            "article": "P-201-12-a-7",
+            "cost": 12.00,
+            "discount": 1 
+        }
+    ]
+}

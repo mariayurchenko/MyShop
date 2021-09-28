@@ -1,0 +1,15 @@
+﻿{
+    "shop": "sjhfekje",
+    "client":
+    {
+        "loyaltycard": "frfer324hjer3nk",
+        "email": "fcr@mail.com"
+    },
+    "products":[
+        {
+            "article": "erfvre",
+            "cost": 143.00,
+            "discount": 4 
+        }
+    ]
+}

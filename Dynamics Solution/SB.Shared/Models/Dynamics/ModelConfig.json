@@ -1,0 +1,312 @@
+{
+  "Entities": [
+    {
+      "Fields": [
+        {
+          "DisplayName": "First Name",
+          "LogicalName": "firstname",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Last Name",
+          "LogicalName": "lastname",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Mobile Phone",
+          "LogicalName": "mobilephone",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Email",
+          "LogicalName": "emailaddress1",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Loyalty Card",
+          "LogicalName": "mar_loyaltycardid",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Created On",
+          "LogicalName": "createdon",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Birthday",
+          "LogicalName": "birthdate",
+          "EntityLogicalName": "contact"
+        }
+      ],
+      "LogicalName": "contact",
+      "DisplayName": "Contact",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "contactid",
+      "PrimaryNameAttribute": "fullname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Party",
+          "LogicalName": "partyid",
+          "EntityLogicalName": "activityparty"
+        },
+        {
+          "DisplayName": "Address ",
+          "LogicalName": "addressused",
+          "EntityLogicalName": "activityparty"
+        }
+      ],
+      "LogicalName": "activityparty",
+      "DisplayName": "Activity Party",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "activitypartyid",
+      "PrimaryNameAttribute": "partyidname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Title",
+          "LogicalName": "title",
+          "EntityLogicalName": "template"
+        }
+      ],
+      "LogicalName": "template",
+      "DisplayName": "Email Template",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "templateid",
+      "PrimaryNameAttribute": "title"
+    },
+    {
+      "Fields": [],
+      "LogicalName": "systemuser",
+      "DisplayName": "User",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "systemuserid",
+      "PrimaryNameAttribute": "fullname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "To",
+          "LogicalName": "to",
+          "EntityLogicalName": "email"
+        },
+        {
+          "DisplayName": "Direction",
+          "LogicalName": "directioncode",
+          "EntityLogicalName": "email"
+        },
+        {
+          "DisplayName": "From",
+          "LogicalName": "from",
+          "EntityLogicalName": "email"
+        }
+      ],
+      "LogicalName": "email",
+      "DisplayName": "Email",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "activityid",
+      "PrimaryNameAttribute": "subject"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Number",
+          "LogicalName": "sb_number",
+          "EntityLogicalName": "sb_check"
+        },
+        {
+          "DisplayName": "Shop",
+          "LogicalName": "sb_shopid",
+          "EntityLogicalName": "sb_check"
+        },
+        {
+          "DisplayName": "Total amount cost",
+          "LogicalName": "sb_totalamount",
+          "EntityLogicalName": "sb_check"
+        },
+        {
+          "DisplayName": "Total discount cost",
+          "LogicalName": "sb_totaldiscountcost",
+          "EntityLogicalName": "sb_check"
+        },
+        {
+          "DisplayName": "Client",
+          "LogicalName": "sb_client",
+          "EntityLogicalName": "sb_check"
+        },
+        {
+          "DisplayName": "Email Address",
+          "LogicalName": "sb_email",
+          "EntityLogicalName": "sb_check"
+        }
+      ],
+      "LogicalName": "sb_check",
+      "DisplayName": "Check",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_checkid",
+      "PrimaryNameAttribute": "sb_number"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Check",
+          "LogicalName": "sb_checkid",
+          "EntityLogicalName": "sb_checkproduct"
+        },
+        {
+          "DisplayName": "Cost",
+          "LogicalName": "sb_cost",
+          "EntityLogicalName": "sb_checkproduct"
+        },
+        {
+          "DisplayName": "Cost with discount",
+          "LogicalName": "sb_totalcost",
+          "EntityLogicalName": "sb_checkproduct"
+        },
+        {
+          "DisplayName": "Discount",
+          "LogicalName": "sb_discount",
+          "EntityLogicalName": "sb_checkproduct"
+        },
+        {
+          "DisplayName": "Number",
+          "LogicalName": "sb_number",
+          "EntityLogicalName": "sb_checkproduct"
+        },
+        {
+          "DisplayName": "Product",
+          "LogicalName": "sb_productid",
+          "EntityLogicalName": "sb_checkproduct"
+        }
+      ],
+      "LogicalName": "sb_checkproduct",
+      "DisplayName": "Check Product",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_checkproductid",
+      "PrimaryNameAttribute": "sb_number"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Entity Name",
+          "LogicalName": "sb_entity",
+          "EntityLogicalName": "sb_autonumerator"
+        },
+        {
+          "DisplayName": "Current Number",
+          "LogicalName": "sb_currentnumber",
+          "EntityLogicalName": "sb_autonumerator"
+        },
+        {
+          "DisplayName": "Prefix",
+          "LogicalName": "sb_prefix",
+          "EntityLogicalName": "sb_autonumerator"
+        }
+      ],
+      "LogicalName": "sb_autonumerator",
+      "DisplayName": "Autonumerator",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_autonumeratorid",
+      "PrimaryNameAttribute": "sb_entity"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Service Bus Connection String",
+          "LogicalName": "sb_servicebusconnectionstring",
+          "EntityLogicalName": "sb_customsettings"
+        },
+        {
+          "DisplayName": "Send Request Queue Name",
+          "LogicalName": "sb_sendrequestqueuename",
+          "EntityLogicalName": "sb_customsettings"
+        },
+        {
+          "DisplayName": "User to send email",
+          "LogicalName": "sb_usertosendemail",
+          "EntityLogicalName": "sb_customsettings"
+        }
+      ],
+      "LogicalName": "sb_customsettings",
+      "DisplayName": "Custom Settings",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_customsettingsid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "First Name",
+          "LogicalName": "sb_firstname",
+          "EntityLogicalName": "sb_loyaltycard"
+        },
+        {
+          "DisplayName": "Email",
+          "LogicalName": "sb_email",
+          "EntityLogicalName": "sb_loyaltycard"
+        },
+        {
+          "DisplayName": "Client",
+          "LogicalName": "sb_contactid",
+          "EntityLogicalName": "sb_loyaltycard"
+        },
+        {
+          "DisplayName": "Last Name",
+          "LogicalName": "sb_lastname",
+          "EntityLogicalName": "sb_loyaltycard"
+        },
+        {
+          "DisplayName": "Phone",
+          "LogicalName": "sb_phone",
+          "EntityLogicalName": "sb_loyaltycard"
+        },
+        {
+          "DisplayName": "Number",
+          "LogicalName": "sb_number",
+          "EntityLogicalName": "sb_loyaltycard"
+        }
+      ],
+      "LogicalName": "sb_loyaltycard",
+      "DisplayName": "Loyalty Card",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_loyaltycardid",
+      "PrimaryNameAttribute": "sb_number"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Name",
+          "LogicalName": "sb_name",
+          "EntityLogicalName": "sb_shop"
+        }
+      ],
+      "LogicalName": "sb_shop",
+      "DisplayName": "Shop",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_shopid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Article",
+          "LogicalName": "sb_article",
+          "EntityLogicalName": "sb_product"
+        },
+        {
+          "DisplayName": "Name",
+          "LogicalName": "sb_name",
+          "EntityLogicalName": "sb_product"
+        }
+      ],
+      "LogicalName": "sb_product",
+      "DisplayName": "Product",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_productid",
+      "PrimaryNameAttribute": "sb_article"
+    }
+  ],
+  "DefaultNamespace": "SB.Shared.Models.Dynamics"
+}
